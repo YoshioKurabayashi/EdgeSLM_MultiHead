@@ -1,0 +1,35 @@
+{
+  "provenance": "handwritten synthetic pilot; not independent real-world data",
+  "labels": {
+    "intent": [
+      "NO_TOOL",
+      "SET_TEMPERATURE",
+      "SET_VOLUME",
+      "OPEN_TRUNK",
+      "START_NAVIGATION",
+      "UNKNOWN"
+    ],
+    "guard": [
+      "ALLOW",
+      "REVIEW",
+      "BLOCK"
+    ]
+  },
+  "splits": {
+    "train": {
+      "rows": 172,
+      "groups": 36,
+      "sha256": "acc71e4f1bc10a3bdfca9f86df4188491bddc6be53015571484da0e8ba4cf147"
+    },
+    "validation": {
+      "rows": 86,
+      "groups": 18,
+      "sha256": "598ad9a0a9718bc60ca8d78859c24023a9a76e14a311441c1744487bf3e2f1f4"
+    },
+    "test": {
+      "rows": 86,
+      "groups": 18,
+      "sha256": "6ba79fd31adae92ec768a42efa706a05ff8d94946e2fe42042d787f63e96237d"
+    }
+  }
+}

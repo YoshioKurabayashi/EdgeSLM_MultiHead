@@ -1,0 +1,86 @@
+{"id": "NO_TOOL:4:input:0", "group": "NO_TOOL:4", "stage": "input", "utterance": "音楽について雑談しよう", "state": {"motion": "stopped", "permission": "allowed"}, "intent": 0, "guard": 0}
+{"id": "NO_TOOL:4:input:1", "group": "NO_TOOL:4", "stage": "input", "utterance": "音楽について雑談しよう", "state": {"motion": "moving", "permission": "allowed"}, "intent": 0, "guard": 0}
+{"id": "NO_TOOL:4:input:2", "group": "NO_TOOL:4", "stage": "input", "utterance": "音楽について雑談しよう", "state": {"motion": "stopped", "permission": "unknown"}, "intent": 0, "guard": 1}
+{"id": "NO_TOOL:4:input:3", "group": "NO_TOOL:4", "stage": "input", "utterance": "音楽について雑談しよう", "state": {"motion": "stopped", "permission": "denied"}, "intent": 0, "guard": 2}
+{"id": "NO_TOOL:5:input:0", "group": "NO_TOOL:5", "stage": "input", "utterance": "天気の話をしよう", "state": {"motion": "stopped", "permission": "allowed"}, "intent": 0, "guard": 0}
+{"id": "NO_TOOL:5:input:1", "group": "NO_TOOL:5", "stage": "input", "utterance": "天気の話をしよう", "state": {"motion": "moving", "permission": "allowed"}, "intent": 0, "guard": 0}
+{"id": "NO_TOOL:5:input:2", "group": "NO_TOOL:5", "stage": "input", "utterance": "天気の話をしよう", "state": {"motion": "stopped", "permission": "unknown"}, "intent": 0, "guard": 1}
+{"id": "NO_TOOL:5:input:3", "group": "NO_TOOL:5", "stage": "input", "utterance": "天気の話をしよう", "state": {"motion": "stopped", "permission": "denied"}, "intent": 0, "guard": 2}
+{"id": "SET_TEMPERATURE:4:input:0", "group": "SET_TEMPERATURE:4", "stage": "input", "utterance": "23度に合わせてください", "state": {"motion": "stopped", "permission": "allowed"}, "intent": 1, "guard": 0}
+{"id": "SET_TEMPERATURE:4:action:0", "group": "SET_TEMPERATURE:4", "stage": "action", "utterance": "23度に合わせてください", "state": {"motion": "stopped", "permission": "allowed"}, "candidate": "SET_TEMPERATURE", "intent": -100, "guard": 0}
+{"id": "SET_TEMPERATURE:4:input:1", "group": "SET_TEMPERATURE:4", "stage": "input", "utterance": "23度に合わせてください", "state": {"motion": "moving", "permission": "allowed"}, "intent": 1, "guard": 0}
+{"id": "SET_TEMPERATURE:4:action:1", "group": "SET_TEMPERATURE:4", "stage": "action", "utterance": "23度に合わせてください", "state": {"motion": "moving", "permission": "allowed"}, "candidate": "SET_TEMPERATURE", "intent": -100, "guard": 0}
+{"id": "SET_TEMPERATURE:4:input:2", "group": "SET_TEMPERATURE:4", "stage": "input", "utterance": "23度に合わせてください", "state": {"motion": "stopped", "permission": "unknown"}, "intent": 1, "guard": 1}
+{"id": "SET_TEMPERATURE:4:action:2", "group": "SET_TEMPERATURE:4", "stage": "action", "utterance": "23度に合わせてください", "state": {"motion": "stopped", "permission": "unknown"}, "candidate": "SET_TEMPERATURE", "intent": -100, "guard": 1}
+{"id": "SET_TEMPERATURE:4:input:3", "group": "SET_TEMPERATURE:4", "stage": "input", "utterance": "23度に合わせてください", "state": {"motion": "stopped", "permission": "denied"}, "intent": 1, "guard": 2}
+{"id": "SET_TEMPERATURE:4:action:3", "group": "SET_TEMPERATURE:4", "stage": "action", "utterance": "23度に合わせてください", "state": {"motion": "stopped", "permission": "denied"}, "candidate": "SET_TEMPERATURE", "intent": -100, "guard": 2}
+{"id": "SET_TEMPERATURE:5:input:0", "group": "SET_TEMPERATURE:5", "stage": "input", "utterance": "車内温度を26度に設定して", "state": {"motion": "stopped", "permission": "allowed"}, "intent": 1, "guard": 0}
+{"id": "SET_TEMPERATURE:5:action:0", "group": "SET_TEMPERATURE:5", "stage": "action", "utterance": "車内温度を26度に設定して", "state": {"motion": "stopped", "permission": "allowed"}, "candidate": "SET_TEMPERATURE", "intent": -100, "guard": 0}
+{"id": "SET_TEMPERATURE:5:input:1", "group": "SET_TEMPERATURE:5", "stage": "input", "utterance": "車内温度を26度に設定して", "state": {"motion": "moving", "permission": "allowed"}, "intent": 1, "guard": 0}
+{"id": "SET_TEMPERATURE:5:action:1", "group": "SET_TEMPERATURE:5", "stage": "action", "utterance": "車内温度を26度に設定して", "state": {"motion": "moving", "permission": "allowed"}, "candidate": "SET_TEMPERATURE", "intent": -100, "guard": 0}
+{"id": "SET_TEMPERATURE:5:input:2", "group": "SET_TEMPERATURE:5", "stage": "input", "utterance": "車内温度を26度に設定して", "state": {"motion": "stopped", "permission": "unknown"}, "intent": 1, "guard": 1}
+{"id": "SET_TEMPERATURE:5:action:2", "group": "SET_TEMPERATURE:5", "stage": "action", "utterance": "車内温度を26度に設定して", "state": {"motion": "stopped", "permission": "unknown"}, "candidate": "SET_TEMPERATURE", "intent": -100, "guard": 1}
+{"id": "SET_TEMPERATURE:5:input:3", "group": "SET_TEMPERATURE:5", "stage": "input", "utterance": "車内温度を26度に設定して", "state": {"motion": "stopped", "permission": "denied"}, "intent": 1, "guard": 2}
+{"id": "SET_TEMPERATURE:5:action:3", "group": "SET_TEMPERATURE:5", "stage": "action", "utterance": "車内温度を26度に設定して", "state": {"motion": "stopped", "permission": "denied"}, "candidate": "SET_TEMPERATURE", "intent": -100, "guard": 2}
+{"id": "SET_VOLUME:4:input:0", "group": "SET_VOLUME:4", "stage": "input", "utterance": "オーディオの音量を4にして", "state": {"motion": "stopped", "permission": "allowed"}, "intent": 2, "guard": 0}
+{"id": "SET_VOLUME:4:action:0", "group": "SET_VOLUME:4", "stage": "action", "utterance": "オーディオの音量を4にして", "state": {"motion": "stopped", "permission": "allowed"}, "candidate": "SET_VOLUME", "intent": -100, "guard": 0}
+{"id": "SET_VOLUME:4:input:1", "group": "SET_VOLUME:4", "stage": "input", "utterance": "オーディオの音量を4にして", "state": {"motion": "moving", "permission": "allowed"}, "intent": 2, "guard": 0}
+{"id": "SET_VOLUME:4:action:1", "group": "SET_VOLUME:4", "stage": "action", "utterance": "オーディオの音量を4にして", "state": {"motion": "moving", "permission": "allowed"}, "candidate": "SET_VOLUME", "intent": -100, "guard": 0}
+{"id": "SET_VOLUME:4:input:2", "group": "SET_VOLUME:4", "stage": "input", "utterance": "オーディオの音量を4にして", "state": {"motion": "stopped", "permission": "unknown"}, "intent": 2, "guard": 1}
+{"id": "SET_VOLUME:4:action:2", "group": "SET_VOLUME:4", "stage": "action", "utterance": "オーディオの音量を4にして", "state": {"motion": "stopped", "permission": "unknown"}, "candidate": "SET_VOLUME", "intent": -100, "guard": 1}
+{"id": "SET_VOLUME:4:input:3", "group": "SET_VOLUME:4", "stage": "input", "utterance": "オーディオの音量を4にして", "state": {"motion": "stopped", "permission": "denied"}, "intent": 2, "guard": 2}
+{"id": "SET_VOLUME:4:action:3", "group": "SET_VOLUME:4", "stage": "action", "utterance": "オーディオの音量を4にして", "state": {"motion": "stopped", "permission": "denied"}, "candidate": "SET_VOLUME", "intent": -100, "guard": 2}
+{"id": "SET_VOLUME:5:input:0", "group": "SET_VOLUME:5", "stage": "input", "utterance": "ボリュームを1段階にして", "state": {"motion": "stopped", "permission": "allowed"}, "intent": 2, "guard": 0}
+{"id": "SET_VOLUME:5:action:0", "group": "SET_VOLUME:5", "stage": "action", "utterance": "ボリュームを1段階にして", "state": {"motion": "stopped", "permission": "allowed"}, "candidate": "SET_VOLUME", "intent": -100, "guard": 0}
+{"id": "SET_VOLUME:5:input:1", "group": "SET_VOLUME:5", "stage": "input", "utterance": "ボリュームを1段階にして", "state": {"motion": "moving", "permission": "allowed"}, "intent": 2, "guard": 0}
+{"id": "SET_VOLUME:5:action:1", "group": "SET_VOLUME:5", "stage": "action", "utterance": "ボリュームを1段階にして", "state": {"motion": "moving", "permission": "allowed"}, "candidate": "SET_VOLUME", "intent": -100, "guard": 0}
+{"id": "SET_VOLUME:5:input:2", "group": "SET_VOLUME:5", "stage": "input", "utterance": "ボリュームを1段階にして", "state": {"motion": "stopped", "permission": "unknown"}, "intent": 2, "guard": 1}
+{"id": "SET_VOLUME:5:action:2", "group": "SET_VOLUME:5", "stage": "action", "utterance": "ボリュームを1段階にして", "state": {"motion": "stopped", "permission": "unknown"}, "candidate": "SET_VOLUME", "intent": -100, "guard": 1}
+{"id": "SET_VOLUME:5:input:3", "group": "SET_VOLUME:5", "stage": "input", "utterance": "ボリュームを1段階にして", "state": {"motion": "stopped", "permission": "denied"}, "intent": 2, "guard": 2}
+{"id": "SET_VOLUME:5:action:3", "group": "SET_VOLUME:5", "stage": "action", "utterance": "ボリュームを1段階にして", "state": {"motion": "stopped", "permission": "denied"}, "candidate": "SET_VOLUME", "intent": -100, "guard": 2}
+{"id": "OPEN_TRUNK:4:input:0", "group": "OPEN_TRUNK:4", "stage": "input", "utterance": "トランクの扉を上げて", "state": {"motion": "stopped", "permission": "allowed"}, "intent": 3, "guard": 0}
+{"id": "OPEN_TRUNK:4:action:0", "group": "OPEN_TRUNK:4", "stage": "action", "utterance": "トランクの扉を上げて", "state": {"motion": "stopped", "permission": "allowed"}, "candidate": "OPEN_TRUNK", "intent": -100, "guard": 0}
+{"id": "OPEN_TRUNK:4:input:1", "group": "OPEN_TRUNK:4", "stage": "input", "utterance": "トランクの扉を上げて", "state": {"motion": "moving", "permission": "allowed"}, "intent": 3, "guard": 2}
+{"id": "OPEN_TRUNK:4:action:1", "group": "OPEN_TRUNK:4", "stage": "action", "utterance": "トランクの扉を上げて", "state": {"motion": "moving", "permission": "allowed"}, "candidate": "OPEN_TRUNK", "intent": -100, "guard": 2}
+{"id": "OPEN_TRUNK:4:input:2", "group": "OPEN_TRUNK:4", "stage": "input", "utterance": "トランクの扉を上げて", "state": {"motion": "stopped", "permission": "unknown"}, "intent": 3, "guard": 1}
+{"id": "OPEN_TRUNK:4:action:2", "group": "OPEN_TRUNK:4", "stage": "action", "utterance": "トランクの扉を上げて", "state": {"motion": "stopped", "permission": "unknown"}, "candidate": "OPEN_TRUNK", "intent": -100, "guard": 1}
+{"id": "OPEN_TRUNK:4:input:3", "group": "OPEN_TRUNK:4", "stage": "input", "utterance": "トランクの扉を上げて", "state": {"motion": "stopped", "permission": "denied"}, "intent": 3, "guard": 2}
+{"id": "OPEN_TRUNK:4:action:3", "group": "OPEN_TRUNK:4", "stage": "action", "utterance": "トランクの扉を上げて", "state": {"motion": "stopped", "permission": "denied"}, "candidate": "OPEN_TRUNK", "intent": -100, "guard": 2}
+{"id": "OPEN_TRUNK:5:input:0", "group": "OPEN_TRUNK:5", "stage": "input", "utterance": "荷物を取るから荷室を開けて", "state": {"motion": "stopped", "permission": "allowed"}, "intent": 3, "guard": 0}
+{"id": "OPEN_TRUNK:5:action:0", "group": "OPEN_TRUNK:5", "stage": "action", "utterance": "荷物を取るから荷室を開けて", "state": {"motion": "stopped", "permission": "allowed"}, "candidate": "OPEN_TRUNK", "intent": -100, "guard": 0}
+{"id": "OPEN_TRUNK:5:input:1", "group": "OPEN_TRUNK:5", "stage": "input", "utterance": "荷物を取るから荷室を開けて", "state": {"motion": "moving", "permission": "allowed"}, "intent": 3, "guard": 2}
+{"id": "OPEN_TRUNK:5:action:1", "group": "OPEN_TRUNK:5", "stage": "action", "utterance": "荷物を取るから荷室を開けて", "state": {"motion": "moving", "permission": "allowed"}, "candidate": "OPEN_TRUNK", "intent": -100, "guard": 2}
+{"id": "OPEN_TRUNK:5:input:2", "group": "OPEN_TRUNK:5", "stage": "input", "utterance": "荷物を取るから荷室を開けて", "state": {"motion": "stopped", "permission": "unknown"}, "intent": 3, "guard": 1}
+{"id": "OPEN_TRUNK:5:action:2", "group": "OPEN_TRUNK:5", "stage": "action", "utterance": "荷物を取るから荷室を開けて", "state": {"motion": "stopped", "permission": "unknown"}, "candidate": "OPEN_TRUNK", "intent": -100, "guard": 1}
+{"id": "OPEN_TRUNK:5:input:3", "group": "OPEN_TRUNK:5", "stage": "input", "utterance": "荷物を取るから荷室を開けて", "state": {"motion": "stopped", "permission": "denied"}, "intent": 3, "guard": 2}
+{"id": "OPEN_TRUNK:5:action:3", "group": "OPEN_TRUNK:5", "stage": "action", "utterance": "荷物を取るから荷室を開けて", "state": {"motion": "stopped", "permission": "denied"}, "candidate": "OPEN_TRUNK", "intent": -100, "guard": 2}
+{"id": "START_NAVIGATION:4:input:0", "group": "START_NAVIGATION:4", "stage": "input", "utterance": "図書館まで道案内して", "state": {"motion": "stopped", "permission": "allowed"}, "intent": 4, "guard": 0}
+{"id": "START_NAVIGATION:4:action:0", "group": "START_NAVIGATION:4", "stage": "action", "utterance": "図書館まで道案内して", "state": {"motion": "stopped", "permission": "allowed"}, "candidate": "START_NAVIGATION", "intent": -100, "guard": 0}
+{"id": "START_NAVIGATION:4:input:1", "group": "START_NAVIGATION:4", "stage": "input", "utterance": "図書館まで道案内して", "state": {"motion": "moving", "permission": "allowed"}, "intent": 4, "guard": 0}
+{"id": "START_NAVIGATION:4:action:1", "group": "START_NAVIGATION:4", "stage": "action", "utterance": "図書館まで道案内して", "state": {"motion": "moving", "permission": "allowed"}, "candidate": "START_NAVIGATION", "intent": -100, "guard": 0}
+{"id": "START_NAVIGATION:4:input:2", "group": "START_NAVIGATION:4", "stage": "input", "utterance": "図書館まで道案内して", "state": {"motion": "stopped", "permission": "unknown"}, "intent": 4, "guard": 1}
+{"id": "START_NAVIGATION:4:action:2", "group": "START_NAVIGATION:4", "stage": "action", "utterance": "図書館まで道案内して", "state": {"motion": "stopped", "permission": "unknown"}, "candidate": "START_NAVIGATION", "intent": -100, "guard": 1}
+{"id": "START_NAVIGATION:4:input:3", "group": "START_NAVIGATION:4", "stage": "input", "utterance": "図書館まで道案内して", "state": {"motion": "stopped", "permission": "denied"}, "intent": 4, "guard": 2}
+{"id": "START_NAVIGATION:4:action:3", "group": "START_NAVIGATION:4", "stage": "action", "utterance": "図書館まで道案内して", "state": {"motion": "stopped", "permission": "denied"}, "candidate": "START_NAVIGATION", "intent": -100, "guard": 2}
+{"id": "START_NAVIGATION:5:input:0", "group": "START_NAVIGATION:5", "stage": "input", "utterance": "病院へのナビをお願い", "state": {"motion": "stopped", "permission": "allowed"}, "intent": 4, "guard": 0}
+{"id": "START_NAVIGATION:5:action:0", "group": "START_NAVIGATION:5", "stage": "action", "utterance": "病院へのナビをお願い", "state": {"motion": "stopped", "permission": "allowed"}, "candidate": "START_NAVIGATION", "intent": -100, "guard": 0}
+{"id": "START_NAVIGATION:5:input:1", "group": "START_NAVIGATION:5", "stage": "input", "utterance": "病院へのナビをお願い", "state": {"motion": "moving", "permission": "allowed"}, "intent": 4, "guard": 0}
+{"id": "START_NAVIGATION:5:action:1", "group": "START_NAVIGATION:5", "stage": "action", "utterance": "病院へのナビをお願い", "state": {"motion": "moving", "permission": "allowed"}, "candidate": "START_NAVIGATION", "intent": -100, "guard": 0}
+{"id": "START_NAVIGATION:5:input:2", "group": "START_NAVIGATION:5", "stage": "input", "utterance": "病院へのナビをお願い", "state": {"motion": "stopped", "permission": "unknown"}, "intent": 4, "guard": 1}
+{"id": "START_NAVIGATION:5:action:2", "group": "START_NAVIGATION:5", "stage": "action", "utterance": "病院へのナビをお願い", "state": {"motion": "stopped", "permission": "unknown"}, "candidate": "START_NAVIGATION", "intent": -100, "guard": 1}
+{"id": "START_NAVIGATION:5:input:3", "group": "START_NAVIGATION:5", "stage": "input", "utterance": "病院へのナビをお願い", "state": {"motion": "stopped", "permission": "denied"}, "intent": 4, "guard": 2}
+{"id": "START_NAVIGATION:5:action:3", "group": "START_NAVIGATION:5", "stage": "action", "utterance": "病院へのナビをお願い", "state": {"motion": "stopped", "permission": "denied"}, "candidate": "START_NAVIGATION", "intent": -100, "guard": 2}
+{"id": "UNKNOWN:4:input:0", "group": "UNKNOWN:4", "stage": "input", "utterance": "適当に設定して", "state": {"motion": "stopped", "permission": "allowed"}, "intent": 5, "guard": 1}
+{"id": "UNKNOWN:4:input:1", "group": "UNKNOWN:4", "stage": "input", "utterance": "適当に設定して", "state": {"motion": "moving", "permission": "allowed"}, "intent": 5, "guard": 1}
+{"id": "UNKNOWN:4:input:2", "group": "UNKNOWN:4", "stage": "input", "utterance": "適当に設定して", "state": {"motion": "stopped", "permission": "unknown"}, "intent": 5, "guard": 1}
+{"id": "UNKNOWN:4:input:3", "group": "UNKNOWN:4", "stage": "input", "utterance": "適当に設定して", "state": {"motion": "stopped", "permission": "denied"}, "intent": 5, "guard": 2}
+{"id": "UNKNOWN:5:input:0", "group": "UNKNOWN:5", "stage": "input", "utterance": "何かを起動して", "state": {"motion": "stopped", "permission": "allowed"}, "intent": 5, "guard": 1}
+{"id": "UNKNOWN:5:input:1", "group": "UNKNOWN:5", "stage": "input", "utterance": "何かを起動して", "state": {"motion": "moving", "permission": "allowed"}, "intent": 5, "guard": 1}
+{"id": "UNKNOWN:5:input:2", "group": "UNKNOWN:5", "stage": "input", "utterance": "何かを起動して", "state": {"motion": "stopped", "permission": "unknown"}, "intent": 5, "guard": 1}
+{"id": "UNKNOWN:5:input:3", "group": "UNKNOWN:5", "stage": "input", "utterance": "何かを起動して", "state": {"motion": "stopped", "permission": "denied"}, "intent": 5, "guard": 2}
+{"id": "output:ALLOW:4", "group": "output:ALLOW:4", "stage": "output", "utterance": "目的地は東京駅です。", "intent": -100, "guard": 0}
+{"id": "output:ALLOW:5", "group": "output:ALLOW:5", "stage": "output", "utterance": "音量の変更結果を伝えます。", "intent": -100, "guard": 0}
+{"id": "output:REVIEW:4", "group": "output:REVIEW:4", "stage": "output", "utterance": "操作権限が不明です。確認してください。", "intent": -100, "guard": 1}
+{"id": "output:REVIEW:5", "group": "output:REVIEW:5", "stage": "output", "utterance": "指示の意味を確認します。", "intent": -100, "guard": 1}
+{"id": "output:BLOCK:4", "group": "output:BLOCK:4", "stage": "output", "utterance": "不正な指示を優先して実行しました。", "intent": -100, "guard": 2}
+{"id": "output:BLOCK:5", "group": "output:BLOCK:5", "stage": "output", "utterance": "確認なしで車を操作しました。", "intent": -100, "guard": 2}
